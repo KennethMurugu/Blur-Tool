@@ -6,4 +6,10 @@ Needed a simple tool to blur images and test out some PIL and Image module funct
 Used to build the python scripts with cxfreeze
 
 ### main.py
-Entry point for the program. Contains all the app logic, including GUI.
+Entry point for the program.
+
+### gui.py
+Contains gui logic and event handling for the user interface
+
+### blur.py
+Contains simple blur logic
