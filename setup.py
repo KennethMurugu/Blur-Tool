@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from gui import MainWindow
 import sys
 from cx_Freeze import setup, Executable
 
@@ -19,7 +20,7 @@ executables = [
 ]
 
 setup(name='Blur Tool',
-      version='1.0.1.0',
+      version=MainWindow.VERSION,
       description='Blur Tool',
       author="RogueShadow",
       options=options,
